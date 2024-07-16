@@ -61,6 +61,16 @@
         .skills div p, .languages div p {
             margin: 5px 0;
         }
+        .certificates, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .certificates img, .projects img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
         a {
             color: white;
             text-decoration: none;
@@ -81,8 +91,13 @@
                 <li>Obstacle Avoidance Robot</li>
                 <li>Line Following Robot</li>
                 <li>Obstacle Avoidance cum Line Following Robot</li>
-                <li>Password based Door Lock System </li>
+                <li>Password based Door Lock System</li>
             </ul>
+            <div class="projects">
+                <img src="project1.jpg" alt="Blind Stick Project">
+                <img src="project2.jpg" alt="Obstacle Avoidance Robot">
+                <img src="project3.jpg" alt="Line Following Robot">
+            </div>
         </div>
         <div class="section">
             <h2>Summary</h2>
@@ -138,10 +153,12 @@
                 <li>Advanced PowerPoint Masterclass</li>
                 <li>AI & ChatGPT</li>
             </ul>
+            <div class="certificates">
+                <img src="certificate1.jpg" alt="Basic to Advanced Excel Program">
+                <img src="certificate2.jpg" alt="Advanced PowerPoint Masterclass">
+                <img src="certificate3.jpg" alt="AI & ChatGPT">
+            </div>
         </div>
     </div>
 </body>
 </html>
-git add .
-git commit -m "Update index.html"
-git push origin main
