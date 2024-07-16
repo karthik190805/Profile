@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blind Stick Project</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bookman+Old+Style&display=swap');
+
+        body {
+            font-family: 'Bookman Old Style', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0073b1;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .back-link {
+            margin-top: 20px;
+        }
+        .back-link a {
+            color: #0073b1;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blind Stick</h1>
+        <img src="7.png" alt="Blind Stick">
+        <ul>
+          <li>Components:</li>
+              <ul>
+              <li>Arduino UNO: The brain of the system.</li>
+              <li>Ultrasonic Sensor: Detects obstacles.</li>
+              <li>Buzzer: Makes a sound when an obstacle is nearby.</li>
+              <li>LED: Lights up as a visual alert.</li>
+              <li>Battery: Powers the stick.</li>
+              </ul>
+          <li>Functionality:</li>
+              <ul>
+              <li>The stick scans the area using the ultrasonic sensor.</li>
+              <li>If it detects an obstacle, the buzzer beeps, and the LED lights up.</li>
+              <li>The user can hear the beep and avoid collisions</li>
+              </ul>
+          </ul>
+        <div class="back-link">
+            <a href="index.html">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>
